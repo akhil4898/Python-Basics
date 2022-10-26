@@ -472,8 +472,40 @@
 
 
 
+# Conditional Expressions...
+
+# age = int(input("Enter age: "))
+# if(age >= 18):
+#     print("Yes")
+# else:
+#     print("No")
+
+# if(age is 18):          # Shows warning But will executed..
+#     print("Yes")
+# else:
+#     print("No")
+
+# s = [1, 2, 3]
+# if 10 in s:
+#     print("True")
+# else:
+#     print("False")
 
 
+
+
+# Programs
+
+ls = []
+n = int(input("Enter size of numbers: "))
+for i in range(0, n):
+    element = int(input("Enter Number: "))
+    ls.append(element)
+max = ls[0]
+for i in ls:
+    if (ls[i+1] > max):
+        max = ls[i+1] 
+print(max) 
 
 
 
