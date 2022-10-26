@@ -334,17 +334,82 @@
 
 
 
+from statistics import multimode
+
+
 myDic = {
     "Akhil": "Coder",
     "Rahul": "Data Engineer",
     "Mohan": "Engineer",
     "Marks": [1,2,3,4],
     "tup": (4, 5, 6),
-    "dic": {"Harish": "CEO"}
+    "dic": {"Harish": "CEO"},
+    1: 2
 }
-print(myDic)
-print(myDic['Akhil'])
-print(myDic['dic']['Harish'])
-print(myDic['tup'])
-myDic["Marks"] = [23, 34, 45]
-print(myDic['Marks'])
+# print(myDic)
+# print(myDic['Akhil'])
+# print(myDic['dic']['Harish'])
+# print(myDic['tup'])
+# myDic["Marks"] = [23, 34, 45]
+# print(myDic['Marks'])
+
+
+
+
+# Methods of Dictionary
+# print(type(myDic.keys()))       # print type of dictionary...
+# print(list(myDic.keys()))       # print elements of dictionary in list form..
+# print(myDic.keys())
+# print(myDic.values())
+# print(myDic.items())
+# print(myDic)
+# updateDic = {
+#     "Raja": "Rani",
+#     "Pen": "Paper"
+# }
+# myDic.update(updateDic)
+# print(myDic)
+
+# print(myDic.get("Raja"))
+
+
+
+
+
+
+
+
+
+
+# Sets...
+
+# a = {1,2,4,5,4,3}         # It cannot store duplicate values and give output in sorted order...
+# print(a)
+# print(type(a))
+
+# b = {}                     # It creates the empty dictionary not empty set..
+# print(type(b))
+
+
+# c = set()                   # It creates the empty set..
+# print(type(c))
+# c.add(12)                   # we can add items here like this...
+# c.add(11)
+# c.add(3)
+# c.add(78)
+# # c.add([1,2,3])            #we cannot add list and dictionary to sets..beacaus ethey are changeable or unhashable...
+# # c.add({"Akhil": "Upadhyay"})
+# c.add((1 ,2 ,3))
+# print(c)
+# print(len(c))
+# c.pop()
+# print(c)
+# print(len(c))
+ 
+
+
+
+
+
+# Programs...
+
