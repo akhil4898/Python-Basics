@@ -334,18 +334,17 @@
 
 
 
-from statistics import multimode
 
 
-myDic = {
-    "Akhil": "Coder",
-    "Rahul": "Data Engineer",
-    "Mohan": "Engineer",
-    "Marks": [1,2,3,4],
-    "tup": (4, 5, 6),
-    "dic": {"Harish": "CEO"},
-    1: 2
-}
+# myDic = {
+#     "Akhil": "Coder",
+#     "Rahul": "Data Engineer",
+#     "Mohan": "Engineer",
+#     "Marks": [1,2,3,4],
+#     "tup": (4, 5, 6),
+#     "dic": {"Harish": "CEO"},
+#     1: 2
+# }
 # print(myDic)
 # print(myDic['Akhil'])
 # print(myDic['dic']['Harish'])
@@ -413,3 +412,10 @@ myDic = {
 
 # Programs...
 
+myDic = {
+    "pushtak": "Book",
+    "ghadi": "Watch",
+    "topi": "Cap" 
+}
+
+print(myDic)
