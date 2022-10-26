@@ -207,5 +207,14 @@
 
 
 
+name = "This is Akhil Upadhyay.  I am yout friend..  "
+finds = name.find("  ")
+if(finds > 0):
+    print("True") 
 
+else:
+    print("False")
+    
+# rep = name.replace("  ", " ")
+print(name.replace("  ", " "))
 
