@@ -337,7 +337,14 @@
 myDic = {
     "Akhil": "Coder",
     "Rahul": "Data Engineer",
-    "Mohan": "Engineer"
+    "Mohan": "Engineer",
+    "Marks": [1,2,3,4],
+    "tup": (4, 5, 6),
+    "dic": {"Harish": "CEO"}
 }
 print(myDic)
-print(myDic["Akhil"])
+print(myDic['Akhil'])
+print(myDic['dic']['Harish'])
+print(myDic['tup'])
+myDic["Marks"] = [23, 34, 45]
+print(myDic['Marks'])
