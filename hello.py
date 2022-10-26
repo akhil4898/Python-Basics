@@ -231,6 +231,7 @@
 
 
 # List..
+# Creating List with []...
 
 # a = [1,"Akhil",3,4.23,True]
 # print("List elemets are:", a)
@@ -245,17 +246,35 @@
 # Methods of Lists
 
 
-l1 = [1,5,3,7,7,9]
-l1.sort()
-print(l1)
-l1.reverse()
-print(l1)
-l1.reverse()
-l1.append(30)
-print(l1)
-l1.insert(2,201)    # To insert element in list using index and value.
-print(l1)
-l1.pop(2)           #To remove element fom list using index value.
-print(l1)
-l1.remove(7)        #To remove element from list using element value.
-print(l1)
+# l1 = [1,5,3,7,7,9]
+# l1.sort()
+# print(l1)
+# l1.reverse()
+# print(l1)
+# l1.reverse()
+# l1.append(30)
+# print(l1)
+# l1.insert(2,201)    # To insert element in list using index and value.
+# print(l1)
+# l1.pop(2)           #To remove element fom list using index value.
+# print(l1)
+# l1.remove(7)        #To remove element from list using element value.
+# print(l1)
+
+
+
+
+
+
+
+
+# Tuple
+# Creating tuple using ()
+
+
+a = (1, 7, 6, 4)
+print(a)
+print(a[2])
+a[2] = 12
+print(a)    #'tuple' object does not support item assignment
+
