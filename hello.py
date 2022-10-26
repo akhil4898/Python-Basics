@@ -133,7 +133,7 @@
 
 # Strings
 
-name = "Akhil Upadhyay"
+# name = "Akhil Upadhyay"
 # surname = "Upadhyay"
 # print(name + "", surname)
 # print(name[0])
@@ -142,6 +142,29 @@ name = "Akhil Upadhyay"
 # print(name[:4])
 # print(name[1:])
 # print(name[-4:-3])
-print(name[1:8:2])    #Here, 2 is skip value...
+# print(name[1:8:2])    #Here, 2 is skip value...
+
+
+
+
+
+
+# String functions
+
+# print(len(name))
+# print(name)
+# print(name.find("Upadhyay"))     # If not present (return -1)...
+# print(name.endswith("Upadhyay"))
+# print(name.count("h"))
+# print(name.capitalize())
+# print(name.replace("Upadhyay", "Nikhil"))
+
+
+
+
+
+
+
+
 
 
