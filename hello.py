@@ -207,14 +207,33 @@
 
 
 
-name = "This is Akhil Upadhyay.  I am yout friend..  "
-finds = name.find("  ")
-if(finds > 0):
-    print("True") 
+# name = "This is Akhil Upadhyay.  I am your friend..  "
+# finds = name.find("  ")
+# if(finds > 0):
+#     print("True") 
 
-else:
-    print("False")
-    
-# rep = name.replace("  ", " ")
-print(name.replace("  ", " "))
+# else:
+#     print("False")
 
+# # rep = name.replace("  ", " ")
+# print(name.replace("  ", " "))
+
+
+
+# letter = "Dear Akhil,\n \t This python course is nice. \nThanks!"
+# print(letter)
+
+
+
+
+
+
+
+
+# List..
+
+a = [1,"Akhil",3,4.23,True]
+print("List elemets are:", a)
+a[0] = 100
+print("List elemets are:", a)
+print(a[1])
