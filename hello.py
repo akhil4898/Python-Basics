@@ -437,3 +437,11 @@
 # print(len(s1))
 
 
+from turtle import clear
+
+
+s = set()
+s.add(20)
+s.add("20")
+s.add(20.4)
+print(len(s))
