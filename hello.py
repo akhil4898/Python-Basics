@@ -170,12 +170,19 @@
 
 
 
+# To print date
+
 from datetime import date, datetime
 # from datetime import datetime
-
-# name = input("Enter name: ")
+import datetime
 print(date.today())       #from datetime import date
-print(datetime.now())     #from datetime import datetime
+# print(datetime.now())     #from datetime import datetime
+current_time = datetime.datetime.now()     #import datetime
+print(current_time.year)
+print(current_time.month)
+print(current_time.day)
+print(current_time)
+
 
 
 
