@@ -232,8 +232,19 @@
 
 # List..
 
-a = [1,"Akhil",3,4.23,True]
-print("List elemets are:", a)
-a[0] = 100
-print("List elemets are:", a)
-print(a[1])
+# a = [1,"Akhil",3,4.23,True]
+# print("List elemets are:", a)
+# a[0] = 100
+# print("List elemets are:", a)
+# print(a[1])
+# print(a[1:5])            #List Slicing 
+# print(a[-4:])
+
+
+
+# Methods of Lists
+
+
+l1 = [1,5,3,7,2,9]
+l1.sort()
+print(l1)
