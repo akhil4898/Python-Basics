@@ -272,12 +272,35 @@
 # Creating tuple using ()
 
 
-a = (1, 7, 6, 4)
-print(a)
-print(a[2])
+# a = (1, 7, 6, 4, 1, 1, 1)
+# print(a)
+# print(a[2])
 # a[2] = 12      #'tuple' object does not support item assignment
 
-t1 = (1,)         # Tupl wwith one element...
-print(t1)
-t2 = ()             # Empty tuple
-print(t2)
+# t1 = (1,)         # Tupl wwith one element...
+# print(t1)
+# t2 = ()             # Empty tuple
+# print(t2)
+
+
+# Methods of tuple..
+
+# print(a.count(1))
+# print(a.index(6))
+
+
+
+
+
+
+# Programs..
+
+l1 = []
+print(l1)
+n = int(input("Enter number of fruits: "))
+for i in range(0, n):
+    fruits = input("Enter element: ")
+    l1.append(fruits)
+print(l1)
+
+
