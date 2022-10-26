@@ -275,6 +275,9 @@
 a = (1, 7, 6, 4)
 print(a)
 print(a[2])
-a[2] = 12
-print(a)    #'tuple' object does not support item assignment
+# a[2] = 12      #'tuple' object does not support item assignment
 
+t1 = (1,)         # Tupl wwith one element...
+print(t1)
+t2 = ()             # Empty tuple
+print(t2)
