@@ -443,3 +443,28 @@
 # s.add("20")
 # s.add(20.0)             # It takes 20.0 as 20...
 # print(len(s))           # we are having 2 elements in set.. 
+
+
+# s = {}                      # S is of dictionary type...
+# print(type(s))  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
