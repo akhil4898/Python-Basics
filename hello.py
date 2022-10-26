@@ -172,16 +172,39 @@
 
 # To print date
 
-from datetime import date, datetime
+# from datetime import date, datetime
 # from datetime import datetime
-import datetime
-print(date.today())       #from datetime import date
+# import datetime
+# print(date.today())       #from datetime import date
 # print(datetime.now())     #from datetime import datetime
-current_time = datetime.datetime.now()     #import datetime
-print(current_time.year)
-print(current_time.month)
-print(current_time.day)
-print(current_time)
+# current_time = datetime.datetime.now()     #import datetime
+# print(current_time.year)
+# print(current_time.month)
+# print(current_time.day)
+# print(current_time)
+
+
+
+
+# letter = '''Name: <|Name|>
+# Greetings from Credgenics. I am happy to tell you about your selection.
+# You are selected!
+
+# Have a great day ahead!
+# Date: <|Date|>
+# '''
+
+# name = input("Enter your name: ")
+# d = input("Enter date: ")
+
+# letter = letter.replace("<|Name|>", name)
+# letter = letter.replace("<|Date|>", d)
+# print("") 
+# print(letter)
+
+
+
+
 
 
 
