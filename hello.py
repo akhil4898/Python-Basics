@@ -318,3 +318,10 @@
 # for i in li:
 #     sum = sum + i
 # print(sum)
+
+
+# a = (7,0,8,0,0,9,0)
+# findZeros = a.count(0)
+# print(findZeros)
+
+
