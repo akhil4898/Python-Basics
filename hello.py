@@ -417,5 +417,6 @@ myDic = {
     "ghadi": "Watch",
     "topi": "Cap" 
 }
-
-print(myDic)
+print("Options are: ", myDic.keys())
+a = input("Enter the hindi word: ")
+print("The meaning of hindi word is:", myDic[a])
