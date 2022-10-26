@@ -396,7 +396,7 @@
 # c.add(11)
 # c.add(3)
 # c.add(78)
-# # c.add([1,2,3])            #we cannot add list and dictionary to sets..beacaus ethey are changeable or unhashable...
+# # c.add([1,2,3])            #we cannot add list and dictionary to sets..beacause they are changeable or unhashable...
 # # c.add({"Akhil": "Upadhyay"})
 # c.add((1 ,2 ,3))
 # print(c)
@@ -461,6 +461,14 @@
 #     dic[takeName] = takeColor   
 # print(len(dic))
 # print(dic)
+
+
+
+# s = {10, 5, 2, (2,3,6), 4}          # we can only add tuples in sets..because tuples are immutable.
+# print(len(s))
+# print(s)    
+
+
 
 
 
