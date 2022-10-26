@@ -502,9 +502,9 @@ for i in range(0, n):
     element = int(input("Enter Number: "))
     ls.append(element)
 max = ls[0]
-for i in ls:
-    if (ls[i+1] > max):
-        max = ls[i+1] 
+for i in range(0, n):
+    if (ls[i] > max):
+        max = ls[i] 
 print(max) 
 
 
