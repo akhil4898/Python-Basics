@@ -245,6 +245,17 @@
 # Methods of Lists
 
 
-l1 = [1,5,3,7,2,9]
+l1 = [1,5,3,7,7,9]
 l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
+l1.reverse()
+l1.append(30)
+print(l1)
+l1.insert(2,201)    # To insert element in list using index and value.
+print(l1)
+l1.pop(2)           #To remove element fom list using index value.
+print(l1)
+l1.remove(7)        #To remove element from list using element value.
 print(l1)
