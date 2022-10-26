@@ -437,11 +437,9 @@
 # print(len(s1))
 
 
-from turtle import clear
 
-
-s = set()
-s.add(20)
-s.add("20")
-s.add(20.4)
-print(len(s))
+# s = set()
+# s.add(20)
+# s.add("20")
+# s.add(20.0)             # It takes 20.0 as 20...
+# print(len(s))           # we are having 2 elements in set.. 
