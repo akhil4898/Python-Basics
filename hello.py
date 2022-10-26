@@ -325,3 +325,19 @@
 # print(findZeros)
 
 
+
+
+
+
+
+# Dictionary....
+
+
+
+myDic = {
+    "Akhil": "Coder",
+    "Rahul": "Data Engineer",
+    "Mohan": "Engineer"
+}
+print(myDic)
+print(myDic["Akhil"])
