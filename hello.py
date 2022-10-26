@@ -496,14 +496,14 @@
 
 # Programs
 
-ls = []                 #Create empty list
+ls = []                 #Create empty list...
 n = int(input("Enter size of numbers: "))
 for i in range(0, n):
     element = int(input("Enter Number: "))
     ls.append(element)              #append elements in list....
 max = ls[0]
-for i in range(0, n):
-    if (ls[i] > max):
+for i in range(0, n):   
+    if (ls[i] > max):           #find maximum element in list...
         max = ls[i] 
 print(max) 
 
