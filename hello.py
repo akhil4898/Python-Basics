@@ -133,10 +133,15 @@
 
 # Strings
 
-name = "Akhil"
-surname = "Upadhyay"
-print(name + "", surname)
-print(name[0])
-print(len(name))     # To find length of variable...
+name = "Akhil Upadhyay"
+# surname = "Upadhyay"
+# print(name + "", surname)
+# print(name[0])
+# print(len(name))     # To find length of variable...
+# print(name[0:4])       # String Slicing 
+# print(name[:4])
+# print(name[1:])
+# print(name[-4:-3])
+print(name[1:8:2])    #Here, 2 is skip value...
 
 
