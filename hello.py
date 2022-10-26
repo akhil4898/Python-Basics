@@ -164,7 +164,18 @@
 
 
 
+# name = input("Enter your name: ")
+# print("Good Morning, " + name)
 
+
+
+
+from datetime import date, datetime
+# from datetime import datetime
+
+# name = input("Enter name: ")
+print(date.today())       #from datetime import date
+print(datetime.now())     #from datetime import datetime
 
 
 
