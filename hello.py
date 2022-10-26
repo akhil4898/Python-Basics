@@ -295,12 +295,26 @@
 
 # Programs..
 
-l1 = []
-print(l1)
-n = int(input("Enter number of fruits: "))
-for i in range(0, n):
-    fruits = input("Enter element: ")
-    l1.append(fruits)
-print(l1)
+# l1 = []
+# print(l1)
+# n = int(input("Enter number of fruits: "))
+# for i in range(0, n):
+#     fruits = input("Enter element: ")
+#     l1.append(fruits)
+# print(l1)
 
 
+# l2 = []
+# n = int(input("Enter number of Students: "))
+# for i in range(0, n):
+#     Marks = int(input("Enter Marks: "))
+#     l2.append(Marks)
+# l2.sort()
+# print(l2)
+
+
+# li = [2, 3, 4, 5]
+# sum = 0
+# for i in li:
+#     sum = sum + i
+# print(sum)
