@@ -412,11 +412,28 @@
 
 # Programs...
 
-myDic = {
-    "pushtak": "Book",
-    "ghadi": "Watch",
-    "topi": "Cap" 
-}
-print("Options are: ", myDic.keys())
-a = input("Enter the hindi word: ")
-print("The meaning of hindi word is:", myDic[a])
+# myDic = {
+#     "pushtak": "Book",
+#     "ghadi": "Watch",
+#     "topi": "Cap" 
+# }
+# print("Options are: ", myDic.keys())
+# a = input("Enter the hindi word: ")
+# print("The meaning of hindi word is:", myDic.get(a))
+
+
+
+# s1 = set()
+# print(type(s1))
+# n = int(input("Enter the size of set: "))
+# for i in range(0, n):
+#     takeInput = int(input("Enter number: "))
+#     s1.add(takeInput)
+# print(list(s1)) 
+
+
+# s1 = {18, "18"}
+# print(type(s1))
+# print(len(s1))
+
+
