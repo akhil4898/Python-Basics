@@ -451,6 +451,16 @@
 
 
 
+# dic = {}
+# n = int(input("Enter number of friends: "))
+# for i in range(0, n):
+#     takeName = input("Enter name: ")
+#     takeColor = input("Enter color: ")
+#     # dict = {takeName: takeColor}
+#     # dic.update(dict)
+#     dic[takeName] = takeColor   
+# print(len(dic))
+# print(dic)
 
 
 
