@@ -730,15 +730,25 @@
 
 
 
-num = int(input("Enter number to check prime: "))
-prime = True
+# num = int(input("Enter number to check prime: "))
+# prime = True
 
-for i in range(2, num):
-    if num%2 == 0:
-        prime = False
-        break
+# for i in range(2, num):
+#     if num%2 == 0:
+#         prime = False
+#         break
+# if prime:
+#     print("Number is prime..")
+# else:
+#     print("Number is not prime...")
 
-if prime:
-    print("Number is prime..")
+
+
+
+
+num = int(input("Enter number: "))
+sum = 0
+for i in range(1, num + 1):
+    sum = sum + i
 else:
-    print("Number is not prime...")
+    print("The sum of n natural number is: " + str(sum))
