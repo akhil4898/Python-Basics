@@ -496,16 +496,41 @@
 
 # Programs
 
-ls = []                                     #Create empty list...
-n = int(input("Enter size of numbers: "))
-for i in range(0, n):
-    element = int(input("Enter Number: "))
-    ls.append(element)                      #append elements in list....
-max = ls[0]
-for i in range(0, n):   
-    if (ls[i] > max):                       #find maximum element in list...
-        max = ls[i] 
-print(max) 
+# ls = []                                     #Create empty list...
+# n = int(input("Enter size of numbers: "))
+# for i in range(0, n):
+#     element = int(input("Enter Number: "))
+#     ls.append(element)                      #append elements in list....
+# max = ls[0]
+# for i in range(0, n):   
+#     if (ls[i] > max):                       #find maximum element in list...
+#         max = ls[i] 
+# print("The Largest number is:", max) 
+
+
+
+num1 = int(input("Enter number: "))
+num2 = int(input("Enter number: "))
+num3 = int(input("Enter number: "))
+num4 = int(input("Enter number: "))
+
+if num1 > num4:
+    f1 = num1
+else:
+    f1 = num4
+
+if num2 > num3:
+    f2 = num2
+else:
+    f2 = num3
+
+if f1 > f2:
+    print("The greatest number is:", f1)
+else:
+    print("The greatest number is:", f2)
+
+
+
 
 
 
