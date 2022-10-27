@@ -509,26 +509,40 @@
 
 
 
-num1 = int(input("Enter number: "))
-num2 = int(input("Enter number: "))
-num3 = int(input("Enter number: "))
-num4 = int(input("Enter number: "))
+# num1 = int(input("Enter number: "))
+# num2 = int(input("Enter number: "))
+# num3 = int(input("Enter number: "))
+# num4 = int(input("Enter number: "))
 
-if num1 > num4:
-    f1 = num1
+# if num1 > num4:
+#     f1 = num1
+# else:
+#     f1 = num4
+
+# if num2 > num3:
+#     f2 = num2
+# else:
+#     f2 = num3
+
+# if f1 > f2:
+#     print("The greatest number is:", f1)
+# else:
+#     print("The greatest number is:", f2)
+
+
+
+
+sub1 = int(input("Enter marks: "))
+sub2 = int(input("Enter marks: "))
+sub3 = int(input("Enter marks: "))
+sum = (sub1 + sub2 + sub3) / 3
+
+if (sub1 < 33 or sub2 < 33 or sub3 < 33):
+    print("You are fail")
+elif (sum < 40):
+    print("You are fail")
 else:
-    f1 = num4
-
-if num2 > num3:
-    f2 = num2
-else:
-    f2 = num3
-
-if f1 > f2:
-    print("The greatest number is:", f1)
-else:
-    print("The greatest number is:", f2)
-
+    print("Congratulations! you passed the exam with", sum, "percentage...")
 
 
 
