@@ -797,19 +797,26 @@
 
 
 
-n = int(input("Enter num: "))
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        if i==1 or i==n or j==1 or j==n:
-            print("* ", end="")
-        else:
-            print("  ", end="")
-    print("\r")
+# n = int(input("Enter num: "))
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if i==1 or i==n or j==1 or j==n:
+#             print("* ", end="")
+#         else:
+#             print("  ", end="")
+#     print("\r")
 
 
 
 
 
+
+num = int(input("Enter number:"))
+limit = 10
+for i in range(limit, 0, -1):                   # for reverse the table or loop...
+    print(f"{num} x {i} = {num * i}")
+else:
+    print("done")
 
 
 
