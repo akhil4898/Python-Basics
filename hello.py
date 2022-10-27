@@ -659,13 +659,17 @@
 
 
 
-l1 = [2,3,10,6,8]
-n = len(l1)
-i  = 0
-while i < n:
-    print(l1[i])
-    i += 1
-print("done")
+# l1 = [2,3,10,6,8]
+# n = len(l1)
+# i  = 0
+# while i < n:
+#     print(l1[i])
+#     i += 1
+# print("done")
+
+
+
+
 
 
 
