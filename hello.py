@@ -883,6 +883,18 @@
 # Recursion...is which call itself...
 
 
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     return n * fact(n-1)
+    
+# num = int(input("Enter number to find factorial: ")) 
+# print("factorial of",num, "is:", fact(num))
+
+# # product = 1
+# # for i in range(num):
+# #     product = product * (i+1)
+# # print(product)
 
 
 
