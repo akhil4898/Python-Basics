@@ -746,15 +746,23 @@
 
 
 
-num = int(input("Enter number: "))
-sum = 0
-i = 1
-# for i in range(1, num + 1):
-while i <= num:
-    sum = sum + i
-    i = i + 1
+# num = int(input("Enter number: "))
+# sum = 0
+# i = 1
+# # for i in range(1, num + 1):
+# while i <= num:
+#     sum = sum + i
+#     i = i + 1
+# else:
+#     print("The sum of n natural number is: " + str(sum))
+
+
+
+
+
+num = int(input("Enter num: "))
+fact = 1
+for i in range(1, num + 1):
+    fact = fact * i
 else:
-    print("The sum of n natural number is: " + str(sum))
-
-
-
+    print("The factorial of given number is: " + str(fact))
