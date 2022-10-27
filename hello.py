@@ -633,11 +633,16 @@
 
 
 
-post = input("Enter some post: ")
-if "HARRY" in post.upper():
-    print("Yes, The post contains the name harry...")
-else:
-    print("No, The post doesn't contain the name harry...")
+# post = input("Enter some post: ")
+# if "HARRY" in post.upper():
+#     print("Yes, The post contains the name harry...")
+# else:
+#     print("No, The post doesn't contain the name harry...")
+
+
+
+
+
 
 
 
