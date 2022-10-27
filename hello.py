@@ -883,19 +883,53 @@
 # Recursion...is which call itself...
 
 
-def fact(n):
-    if n == 1 or n == 0:
-        return 1
-    else:
-        return n * fact(n-1)
+# def fact(n):
+#     if n == 1 or n == 0:
+#         return 1
+#     else:
+#         return n * fact(n-1)
     
-num = int(input("Enter number to find factorial: ")) 
-print("factorial of",num, "is:", fact(num))
+# num = int(input("Enter number to find factorial: ")) 
+# print("factorial of",num, "is:", fact(num))
 
 # # product = 1
 # # for i in range(num):
 # #     product = product * (i+1)
 # # print(product)
 
+
+
+
+
+
+# def greatestNumber(a,b,c):
+#     if a > b and a > c:
+#         print("A is greater number...")
+#     elif b > c:
+#         print("B is greater number...")
+#     else:
+#         print("C is greater number...")
+
+
+# # num = int(input("Enter how many number you want to enter: "))
+# # for i in range(num):
+# a = int(input("Enter number a: "))
+# b = int(input("Enter number b: "))
+# c = int(input("Enter number c: "))
+# greatestNumber(a, b, c)
+
+
+
+
+
+
+# (0°C × 9/5) + 32       celcius to farenheit formula...
+
+def cToF(celcius):
+    return (celcius * (9/5)) + 32 
+
+cel = int(input("Enter celcius: ")) 
+print("Faranhite is: " + str(cToF(cel)))
+ 
 
 
