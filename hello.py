@@ -707,6 +707,12 @@
 
 
 
+
+# Problems on Loops....
+
+
+
+
 # table = int(input("Enter table number: "))
 # # for i in range(1, 11):
 # i = 1
@@ -817,6 +823,13 @@
 #     print(f"{num} x {i} = {num * i}")
 # else:
 #     print("done")
+
+
+
+
+
+
+# Functions And Recursion....
 
 
 
