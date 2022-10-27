@@ -811,12 +811,16 @@
 
 
 
-num = int(input("Enter number:"))
-limit = 10
-for i in range(limit, 0, -1):                   # for reverse the table or loop...
-    print(f"{num} x {i} = {num * i}")
-else:
-    print("done")
+# num = int(input("Enter number:"))
+# limit = 10
+# for i in range(limit, 0, -1):                   # for reverse the table or loop...
+#     print(f"{num} x {i} = {num * i}")
+# else:
+#     print("done")
+
+
+
+
 
 
 
