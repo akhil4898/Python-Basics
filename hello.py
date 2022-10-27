@@ -669,9 +669,19 @@
 
 
 
+# for loop...
+
+l1 = [1,2,37,89,3]
+# for item in l1:
+#     print(item)
+
+# print("done")
 
 
 
+for item in range(len(l1)):         #syntax range(1, 8) it will execute only 7 times
+    print(l1[item]) 
+print("done")
 
 
 
