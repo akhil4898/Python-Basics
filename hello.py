@@ -1123,3 +1123,22 @@
 # with open('anotherSample.txt') as f:                # don't need write f.close() to close this file manually..
 #     data = f.read()                                 # It is done automatically...
 # print(data)
+
+
+
+
+
+# Problems on file I/O...
+
+
+# with open('anotherSample.txt') as f:
+#     data = f.read()
+# print(data)
+# find = data.find("amdcfew")
+# if find > 0:
+#     print("Word found in a file..")
+# else:
+#     print("Word not found in a file..")
+
+
+
