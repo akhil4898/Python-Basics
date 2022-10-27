@@ -985,3 +985,21 @@
 
 # length = int(input("Enter length: "))
 # print("Inches to cm: " + str(InchTOCm(length)))
+
+
+
+
+
+
+
+# def removeAndStrip(text, word):
+#     newString = text.replace(word, "")
+#     return newString.strip()                      # strip() will remove the Initial extra space in string 
+
+# text = input("Enter some string: ")
+# word = input("Which word do you want to remove: ")
+# res = removeAndStrip(text, word)
+# print(res)
+ 
+
+
