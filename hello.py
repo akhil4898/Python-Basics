@@ -1006,50 +1006,66 @@
 
 
 
-# Snake Water and Gun Game...
+# # Snake Water and Gun Game...
 
-import random
+# import random
 
-def gameWin(comp, you):
-    if comp == you:
-        return None
-    elif comp == 's':
-        if you == 'w':
-            return False
-        elif you == 'g':
-            return True
-    elif comp == 'w':
-        if you == 'g':
-            return False
-        elif you == 's':
-            return True
-    elif comp == 'g':
-        if you == 's':
-            return False
-        elif you == 'w':
-            return True
+# def gameWin(comp, you):
+#     if comp == you:
+#         return None
+#     elif comp == 's':
+#         if you == 'w':
+#             return False
+#         elif you == 'g':
+#             return True
+#     elif comp == 'w':
+#         if you == 'g':
+#             return False
+#         elif you == 's':
+#             return True
+#     elif comp == 'g':
+#         if you == 's':
+#             return False
+#         elif you == 'w':
+#             return True
     
-print("Comp Turn: Computer already choosed..")
-randNo = random.randint(1,3)
+# print("Comp Turn: Computer already choosed..")
+# randNo = random.randint(1,3)
 
-if randNo == 1:
-    comp = 's'
-elif randNo == 2:
-    comp = 'w'
-elif randNo == 3:
-    comp = 'g'
+# if randNo == 1:
+#     comp = 's'
+# elif randNo == 2:
+#     comp = 'w'
+# elif randNo == 3:
+#     comp = 'g'
 
-you = input("Your Turn: Snake(s), Water(w), or Gun(g): ")
+# you = input("Your Turn: Snake(s), Water(w), or Gun(g): ")
 
-a = gameWin(comp, you)
+# a = gameWin(comp, you)
 
-print(f"computer choose {comp}")
-print(f"You choose {you}")
+# print(f"computer choose {comp}")
+# print(f"You choose {you}")
 
 
-if a == None:
-    print("Ohh! Game tie")
-elif a:
-    print("Congratulatios! You win!")
-else:
-    print("Sorry! You loose!")
+# if a == None:
+#     print("Ohh! Game tie")
+# elif a:
+#     print("Congratulatios! You win!")
+# else:
+#     print("Sorry! You loose!")
+
+
+
+
+
+
+
+
+
+# File I/O.....
+
+
+f = open('sample.txt', 'r')
+data = f.read()
+print(data)
+f.close()
