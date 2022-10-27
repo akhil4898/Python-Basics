@@ -1195,3 +1195,11 @@
 #             if j!=10:
 #                 f.write("\n")
     
+
+
+
+
+
+
+with open('anotherSample1.txt') as f:
+    
