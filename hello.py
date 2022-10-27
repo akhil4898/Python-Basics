@@ -925,11 +925,24 @@
 
 # (0°C × 9/5) + 32       celcius to farenheit formula...
 
-def cToF(celcius):
-    return (celcius * (9/5)) + 32 
+# def cToF(celcius):
+#     return (celcius * (9/5)) + 32 
 
-cel = int(input("Enter celcius: ")) 
-print("Faranhite is: " + str(cToF(cel)))
+# cel = int(input("Enter celcius: ")) 
+# print("Faranhite is: " + str(cToF(cel)))
  
+
+
+
+
+
+
+# print("This is Akhil Upadhyay", end=" ")    #By default end value is (\n) new line..
+# print("This is Rakul preet", end=" ")     # But we can update the default value of end..
+
+
+
+
+
 
 
