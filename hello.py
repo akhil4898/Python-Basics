@@ -1131,14 +1131,30 @@
 # Problems on file I/O...
 
 
+
+
 # with open('anotherSample.txt') as f:
 #     data = f.read()
 # print(data)
-# find = data.find("amdcfew")
-# if find > 0:
+
+# if "CEO" in data:
 #     print("Word found in a file..")
 # else:
 #     print("Word not found in a file..")
+
+# # find = data.find("akhil")                     # find return (-1) while word not found and return address of first occurance of word , While word found.. 
+# # if find > 0:
+# #     print("Word found in a file..")
+# # else:
+# #     print("Word not found in a file..")
+
+
+
+
+
+
+
+
 
 
 
