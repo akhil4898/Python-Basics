@@ -1200,11 +1200,24 @@
 
 
 
-with open('anotherSample1.txt') as f:
-    content = f.read()
+# with open('anotherSample1.txt') as f:
+#     content = f.read()
 
-content = content.replace("Donkey", "######")
-print(content)
+# content = content.replace("Donkey", "######")
+# with open('anotherSample1.txt', 'w') as f:
+#     f.write(content)
 
-with open('anotherSample1.txt', 'w') as f:
-    content = f.write(content)
+
+
+
+
+
+
+# words = ["hard", "working", "lazy"]
+
+# with open('anotherSample1.txt') as f:
+#     content = f.read()
+# for word in words:
+#     content = content.replace(word, "#######")
+#     with open('anotherSample1.txt', 'w') as f1:
+#          f1.write(content)
