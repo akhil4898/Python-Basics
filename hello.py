@@ -579,6 +579,13 @@
 
 
 
+l1 = ["Akhil", "Mohan", "Sohan", "Ramu", "Shyam"]
+takeInput = input("Enter name to find in the list: ")
+if(takeInput in l1):
+    print("Element found...")
+else:
+    print("Element not found...")        
+
 
 
 
