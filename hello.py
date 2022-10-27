@@ -699,12 +699,22 @@ l1 = [1,2,37,89,3]
     # print("done")
 
 
-i = 4
-if i > 0:
-    pass
-print("done")
+# i = 4
+# if i > 0:
+#     pass                            # it's a null statement..(do nothing)
+# print("done")
 
 
+
+
+# table = int(input("Enter table number: "))
+# # for i in range(1, 11):
+# i = 1
+# while i <= 10:
+#     print(table, " * ", i, "= ", table * i)
+#     i = i + 1
+# else:
+#     print("Done")
 
 
 
