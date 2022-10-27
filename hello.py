@@ -979,3 +979,9 @@
 
 
 
+
+# def InchTOCm(l):
+#     return l * 2.54 
+
+# length = int(input("Enter length: "))
+# print("Inches to cm: " + str(InchTOCm(length)))
