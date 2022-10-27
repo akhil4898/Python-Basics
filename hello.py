@@ -760,9 +760,44 @@
 
 
 
-num = int(input("Enter num: "))
-fact = 1
-for i in range(1, num + 1):
-    fact = fact * i
-else:
-    print("The factorial of given number is: " + str(fact))
+# num = int(input("Enter num: "))
+# fact = 1
+# for i in range(1, num + 1):
+#     fact = fact * i
+# else:
+#     print("The factorial of given number is: " + str(fact))
+
+
+
+
+# n = int(input("Enter num: "))
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#             if j <= n - i:
+#                 print("  ", end="")
+#     for k in range(1, n + 1):
+#         if k <= i:
+#             print("* ", end="")
+#     for l in range(1, n + 1):
+#         if l < i:
+#             print("* ", end="")
+#     print("\r")
+
+
+
+
+# n = int(input("Enter num: "))
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if j <= i:
+#             print("* ", end="")
+#     print("\r")
+
+
+
+
+
+
+
+
+
