@@ -1065,7 +1065,27 @@
 # File I/O.....
 
 
-f = open('sample.txt', 'r')
-data = f.read()
-print(data)
-f.close()
+# # f = open('sample.txt', 'r')
+# f = open("sample.txt")          # By default the mode is read mode...
+# data = f.read()                 # we cannot use read() multiple times in same code... 
+# # data = f.read(2)                # To specify the no. of characters in read(), Here it reads first 2 characters only..
+# print(data)
+# f.close()
+
+
+
+
+# f = open('sample.txt')
+# data = f.readline()                # It reads only one line content and read \n (next line also)
+# print(data)
+# data = f.readline()
+# print(data)
+# data = f.readline()
+# print(data)
+
+
+
+
+f = open('sample.txt')
+data = f.readlines()                # It gives the output in list type And read all data at a time in one line..
+print(data)                         # we cannot use readlines() multiple times in same code... 
