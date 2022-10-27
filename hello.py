@@ -945,11 +945,24 @@
 
 
 
-def sum(n):
-    if n == 0:
-        return 0
-    else:
-        return n + sum(n-1)
+# def sum(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         return n + sum(n-1)
 
-num = int(input("Enter number to print n natural number: "))
-print("Sum of n natural number is: " + str(sum(num)))
+# num = int(input("Enter number to print n natural number: "))
+# print("Sum of n natural number is: " + str(sum(num)))
+
+
+
+
+
+
+
+# n = int(input("Enter num:"))
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if (j <= n-i+1):
+#             print("* ", end="")
+#     print("\r")
