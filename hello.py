@@ -1086,6 +1086,40 @@
 
 
 
-f = open('sample.txt')
-data = f.readlines()                # It gives the output in list type And read all data at a time in one line..
-print(data)                         # we cannot use readlines() multiple times in same code... 
+# f = open('sample.txt')
+# data = f.readlines()                # It gives the output in list type And read all data at a time in one line..
+# print(data)                         # we cannot use readlines() multiple times in same code... 
+
+
+
+
+
+# To Write in a file...
+
+# f = open('anotherSample.txt', 'w')
+# f.write("my name is Akhil Upadhyay and I am CEO of my life...")
+# f.close()
+# f = open('anotherSample.txt')
+# data = f.read()
+# print(data)
+# f.close()
+
+
+
+
+
+# To append in a file...
+
+# f = open("anotherSample.txt", "a")
+# f.write("\nI am appending in this file..")
+# f.close()
+
+
+
+
+
+# With statement....
+
+# with open('anotherSample.txt') as f:                # don't need write f.close() to close this file manually..
+#     data = f.read()                                 # It is done automatically...
+# print(data)
