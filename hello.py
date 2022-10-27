@@ -966,3 +966,16 @@
 #         if (j <= n-i+1):
 #             print("* ", end="")
 #     print("\r")
+
+
+
+# Same as upper one...
+
+# n = int(input("Enter num:"))
+# for i in range(n):
+#     print("* " * (n - i))
+
+
+
+
+
