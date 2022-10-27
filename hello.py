@@ -834,6 +834,31 @@
 
 
 
+# def percetage(marks):                   # This is function 
+#     p = (sum(marks)/400)*100
+#     return p
+
+# marks = [45,67,78,90]
+# print(percetage(marks))
+
+
+# marks2 = [90,89,96,95]
+# print(percetage(marks2))
+
+
+
+
+
+# def greet(num):
+#     for i in range(num):
+#         name = input("Enter name: ")
+#         print(f'''Good Morning, {name}
+# Have a nice day!''')
+
+# n = int(input("How many number of people you want to greet: "))
+# greet(n)
+
+
 
 
 
