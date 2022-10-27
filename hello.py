@@ -532,17 +532,51 @@
 
 
 
-sub1 = int(input("Enter marks: "))
-sub2 = int(input("Enter marks: "))
-sub3 = int(input("Enter marks: "))
-sum = (sub1 + sub2 + sub3) / 3
+# sub1 = int(input("Enter marks: "))
+# sub2 = int(input("Enter marks: "))
+# sub3 = int(input("Enter marks: "))
+# sum = (sub1 + sub2 + sub3) / 3
 
-if (sub1 < 33 or sub2 < 33 or sub3 < 33):
-    print("You are fail")
-elif (sum < 40):
-    print("You are fail")
-else:
-    print("Congratulations! you passed the exam with", sum, "percentage...")
+# if (sub1 < 33 or sub2 < 33 or sub3 < 33):
+#     print("You are fail")
+# elif (sum < 40):
+#     print("You are fail")
+# else:
+#     print("Congratulations! you passed the exam with", sum, "percentage...")
+    
+
+
+
+# text = input("Enter text: ")
+
+# if ("make a lot of money" in text):
+#     spam = True
+# elif ("buy now" in text):
+#     spam = True
+# elif ("click this" in text):    
+#     spam = True    
+# elif ("subscribe this" in text):
+#     spam = True
+# else:
+#     spam = False
+
+
+# if (spam):
+#     print("This is spam...")
+# else:
+#     print("This is not spam...")
+
+
+
+# name = input("Enter name: ")
+# length = len(name)
+# if(length < 10):
+#     print("Contain less than 10 characters in name...")
+# else:
+#     print("Contain more than 10 characters in name...")
+
+
+
 
 
 
