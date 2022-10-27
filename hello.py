@@ -1153,8 +1153,30 @@
 
 
 
+# def game():
+#     return 100
 
 
+# score = game()
 
-
-
+# with open('anotherSample1.txt') as f:
+#     fileText = f.read()
+#     if fileText == "":
+#         with open('anotherSample1.txt', 'w') as f:
+#                 f.write(str(score))
+#         with open('anotherSample1.txt') as f:
+#                 scoreOfNow = f.read()
+#                 print("Updated Score is: " + scoreOfNow)
+#     else:
+#         f = open('anotherSample1.txt')
+#         hiscore = int(f.read())
+#         print("Last Score is: " + str(hiscore))
+#         f.close()
+#         if score > hiscore:
+#             with open('anotherSample1.txt', 'w') as f:
+#                 f.write(str(score))
+#             with open('anotherSample1.txt') as f:
+#                 scoreOfNow = f.read()
+#                 print("Updated Score is: " + scoreOfNow)
+#         else:
+#             print("New score is not more than high score which is:", hiscore)
