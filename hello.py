@@ -17,15 +17,15 @@
 
 # for playing sound...
 
-from playsound import playsound
+# from playsound import playsound
 
-takeInput = input("Enter input: ")
-if takeInput == "maa":
-    playsound('/home/akhil/Documents/Python/maa.mp3')
-elif takeInput == "Ankh":
-    playsound('/home/akhil/Documents/Python/Ankh.mp3')
-else:
-    print("Sorry... This song is not available...")
+# takeInput = input("Enter input: ")
+# if takeInput == "maa":
+#     playsound('/home/akhil/Documents/Python/maa.mp3')
+# elif takeInput == "Ankh":
+#     playsound('/home/akhil/Documents/Python/Ankh.mp3')
+# else:
+#     print("Sorry... This song is not available...")
 
 
 
