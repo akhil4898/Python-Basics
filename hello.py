@@ -683,7 +683,8 @@ for item in range(len(l1)):         #syntax range(1, 8) it will execute only 7 t
     print(l1[item]) 
     if l1[item] == 89:
         break
-else:
+        # pass
+else:                               #Else will execute when for loop fully executed without using break... 
     print("done")
 
 
