@@ -679,13 +679,30 @@ l1 = [1,2,37,89,3]
 
 
 
-for item in range(len(l1)):         #syntax range(1, 8) it will execute only 7 times
-    print(l1[item]) 
-    if l1[item] == 89:
-        break
-        # pass
-else:                               #Else will execute when for loop fully executed without using break... 
-    print("done")
+# for item in range(len(l1)):         #syntax range(1, 8) it will execute only 7 times
+#     print(l1[item]) 
+#     if l1[item] == 89:
+#         break
+#         # pass
+# else:                               #Else will execute when for loop fully executed without using break... 
+#     print("done")
+
+
+
+
+
+# for i in l1:
+#     if i == 89:
+#         continue              # for skip particular statement...
+#     print(i)
+# else:
+    # print("done")
+
+
+i = 4
+if i > 0:
+    pass
+print("done")
 
 
 
