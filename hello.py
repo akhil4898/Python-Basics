@@ -681,7 +681,10 @@ l1 = [1,2,37,89,3]
 
 for item in range(len(l1)):         #syntax range(1, 8) it will execute only 7 times
     print(l1[item]) 
-print("done")
+    if l1[item] == 89:
+        break
+else:
+    print("done")
 
 
 
