@@ -1200,6 +1200,11 @@
 
 
 
-
 with open('anotherSample1.txt') as f:
-    
+    content = f.read()
+
+content = content.replace("Donkey", "######")
+print(content)
+
+with open('anotherSample1.txt', 'w') as f:
+    content = f.write(content)
