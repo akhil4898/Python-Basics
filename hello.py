@@ -707,25 +707,26 @@
 
 
 
-table = int(input("Enter table number: "))
-# for i in range(1, 11):
-i = 1
-while i <= 10:
-    # print(table, " * ", i, "= ", table * i)
-    # print(str(table) + " X " + str(i) + "=" + str(table * i))
-    print(f"{table} x {i} = {table * i}")                   # this is fstring...
-    i = i + 1
-else:
-    print("Done")
+# table = int(input("Enter table number: "))
+# # for i in range(1, 11):
+# i = 1
+# while i <= 10:
+#     # print(table, " * ", i, "= ", table * i)
+#     # print(str(table) + " X " + str(i) + "=" + str(table * i))
+    # print(f"{table} x {i} = {table * i}")                   # this is fstring...
+#     i = i + 1
+# else:
+#     print("Done")
 
 
 
 
-
+# 
 # l1 = ["harry", "sohan", "sachin", "rahul"]
+# for name in l1:
+    # if name.startswith("s"):
+        # print(f"Hello:  {name}")
 
-# for i in l1:
-#     if i == l1.count("s"):
-#         pass
+
 
 
