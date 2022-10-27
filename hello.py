@@ -867,10 +867,22 @@
 # print(s)
 
 
-def greet(name = "Nikhil"):             # Here, Nikhil is default parameter value...
-    # This value is used when no argument is passed...
-    print("Good day, " + name)
+# def greet(name = "Nikhil"):             # Here, Nikhil is default parameter value...
+#     # This value is used when no argument is passed...
+#     print("Good day, " + name)
 
-name = input("Enter name: ")
-greet(name)
-greet()
+# name = input("Enter name: ")
+# greet(name)
+# greet()
+
+
+
+
+
+
+# Recursion...is which call itself...
+
+
+
+
+
