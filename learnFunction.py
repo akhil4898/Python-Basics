@@ -56,6 +56,6 @@
 
 
 def toDescribe():
-    '''This is the funtion to describe about the function...What it does...'''
+    '''This is the funtion to describe about the function... What it does...'''
 
 print(toDescribe.__doc__)                                           # Docstring...
