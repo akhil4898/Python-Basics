@@ -80,24 +80,24 @@
 # Function within Functions or nested function or inner function...
 
 
-# def fun():
-#     s = "This is just for fun()..."
-#     print("done for fun()...")
+def fun():
+    s = "This is just for fun()..."
+    print("done for fun()...")
 
-#     def fun2():
-#         print(s)
-#         t = "This is just for fun2()..."
-#         print("donefor fun2()..")
+    def fun2():
+        print(s)
+        t = "This is just for fun2()..."
+        print("donefor fun2()..")
 
-#         def fun3():
-#             print(t)
-#             print("done for fun3()...")
+        def fun3():
+            print(t)
+            print("done for fun3()...")
 
-#         fun3()
+        fun3()
 
-#     fun2()
+    fun2()
 
-# fun()
+fun()
 
 
 
