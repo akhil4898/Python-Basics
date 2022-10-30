@@ -99,5 +99,6 @@ def fun():
 
 fun()
 print("all done..")
+print("I have completed all the function..")
 
 
